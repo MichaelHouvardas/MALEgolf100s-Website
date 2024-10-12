@@ -82,6 +82,7 @@
   line-height: 1.6;
   margin-bottom: 2rem;
   text-align: center;
+  max-width: 50vw;
 }
 
 .page a {
