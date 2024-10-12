@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 0 2rem;
+    background-color: #333;
+    z-index: 1000; /* Ensures the navbar stays above other elements */
+  }
+  
+  body {
+    padding-top: 10vh; /* Prevents content from being hidden behind the navbar */
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+  }
